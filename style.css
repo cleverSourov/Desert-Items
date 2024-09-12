@@ -1,0 +1,94 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+/* Header Styles */
+header {
+    background: url('desert-header.jpg') no-repeat center center/cover;
+    color: #fff;
+    padding: 2rem;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+header p {
+    font-size: 1.2rem;
+}
+
+/* Main Content Styles */
+main {
+    padding: 1rem;
+}
+
+.gallery {
+    margin: 2rem 0;
+}
+
+.gallery h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.gallery-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.gallery-item {
+    flex: 1 1 300px;
+    max-width: 300px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.gallery-item p {
+    margin: 0.5rem 0;
+    font-style: italic;
+}
+
+/* About Section Styles */
+.about {
+    background-color: #fff;
+    padding: 1rem;
+    margin: 2rem 0;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.about h2 {
+    margin-bottom: 1rem;
+}
+
+/* Footer Styles */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
